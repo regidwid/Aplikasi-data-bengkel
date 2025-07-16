@@ -78,5 +78,15 @@ perhatikan pemilihan menu untuk menginput sesuai yang diinginkan
 
 perhatikan inputan numeric maupun teks yang diminta
 
+# Video Simulasi
+
+https://drive.google.com/file/d/15SA3CL9MvCRc2wvazok4AL6ZIDsKjBUF/view?usp=drive_link
+
+# Author
+
+Regi Dwi Darmawan
+kritik dan saran dapat sangat membantu
+kirimkan melalui regi.dwi21.rd@gmail.com
+
 
 Selamat mencoba
