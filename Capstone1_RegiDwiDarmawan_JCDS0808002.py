@@ -81,9 +81,19 @@ def inputnumeric():
 
 # Define fungsi input yang memiliki return tipe data string yang diinginkan.
 def konfirmasi():
-    userinput = input()
-    if userinput == '':
-        print('Input tidak boleh kosong')
+    while True:
+        userinput = input()
+        if userinput == '':
+            print('Input tidak boleh kosong')
+            continue
+        elif userinput == ' ':
+            print('Input tidak boleh kosong')
+            continue
+        elif userinput == '  ':
+            print('Input tidak boleh kosong')
+            continue
+        else:
+            break
     return userinput
 
 # Define fungsi input yang memiliki return data jawban Ya atau Tidak
@@ -415,7 +425,7 @@ def m4():
         update_index_1 = inputnumeric()
         if update_index_1 > len(data_barang_a['index']) or update_index_1 == 0:
             print('Angka index yang anda masukan tidak ada mohon periksa kembali')
-            continue5
+            continue
         elif update_index_1  <= len(data_barang_a['index']):
             update_index = update_index_1 - 1
             print('''Silahkan pilih nomor berdasarkan data yang ingin anda update
