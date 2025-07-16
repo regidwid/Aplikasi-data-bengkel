@@ -66,7 +66,7 @@ data_terjual = {
 def inputnumeric():
     while True:
         userinput = input()
-        if userinput == '':
+        if userinput.strip() == '':
             print('Input tidak boleh kosong')
             continue
         elif userinput.isdigit() == False:
@@ -83,7 +83,7 @@ def inputnumeric():
 def konfirmasi():
     while True:
         userinput = input()
-        if userinput == '':
+        if userinput.strip() == '':
             print('Input tidak boleh kosong')
             continue
         elif userinput == ' ':
@@ -100,7 +100,7 @@ def konfirmasi():
 def konfirmasi_yt():
     while True:
         userinput = input().lower()
-        if userinput == '':
+        if userinput.strip() == '':
             print('Input tidak boleh kosong')
             continue
         elif userinput.isdigit() == True:
