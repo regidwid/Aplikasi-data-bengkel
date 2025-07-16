@@ -5,6 +5,7 @@ keterbatasan man power dalam bisnis bengkel membuat banyak owner bengkel kewalah
 
 ### Note sudah berisi data dummy!!!
 ### Buatlah akun terlebih dahulu
+### Install tabulate terlebih dahulu
 
 Fitur
 
